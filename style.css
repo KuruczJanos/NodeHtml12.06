@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background: url(./gyumolcsfa-header.jpg);
+    height: 300px;
+
+}
+.container{
+    max-width: 99.9999%;
+    background-color: aquamarine;
+}
+.navbar{
+    list-style: none;
+}
+.main1.main2.navbar::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.main1{
+    width: 09.9999%;
+    float: left;
+
+}
+.main2{
+    width: 89.99999%;
+    float: left;
+}
+.footer{
+    padding-top: 100px;
+    text-align: center;
+}
